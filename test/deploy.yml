@@ -5,3 +5,5 @@
   tasks:
    - name: tar_package
      command: cd /var/lib/jenkins/software/test1/test && cp index.html /tmp/index.html  && tar -cvf index.tar index.html  
+   - name: test
+     command: ls
