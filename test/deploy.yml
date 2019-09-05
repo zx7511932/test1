@@ -4,6 +4,6 @@
   gather_facts: False
   tasks:
    - name: tar_package
-     command: cd /var/lib/jenkins/software/test1/test && cp index.html /tmp/index.html  && tar -cvf index.tar index.html  
+     command:  cp index.html /tmp/index.html  && tar -cvf /tmp/index.tar /tmp/index.html  
    - name: test
      command: ls
